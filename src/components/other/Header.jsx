@@ -1,5 +1,5 @@
 import React from 'react'
-import { setLocalStorage } from '../../utils/LocalStorage'
+
 const Header = (props) => {
     const logOutUser=()=>{
         localStorage.setItem('loggedInUser','')
